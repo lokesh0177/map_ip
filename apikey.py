@@ -3,7 +3,7 @@ import folium
 
 def get_location(ip_address):
   
-    api_key = "baf88aa80fdf69d6025bba779d60b131"
+    api_key = ""
     api_url = f"http://api.ipstack.com/{ip_address}?access_key={api_key}"
 
     try:
